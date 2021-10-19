@@ -1,3 +1,15 @@
+******************************************
+
+PARA SUBIR ACTULIZACIÓN DE ARCHIVO: 
+    git add "nombre del archivo que se va a subir" (ex. git add index.html)
+    git commit -m "mensaje de lo que ha cambiado"
+    git push 
+
+PARA BAJAR ACTULIZACIÓN: 
+    git pull
+
+******************************************
+
 //* holi :) esto es como un blog de notas para nosotras, para que vayamos anotando cosas y eso.
 Esto no se subirá al git. Solo podemos verlo nosotras. 
 
