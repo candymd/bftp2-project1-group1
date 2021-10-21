@@ -1,5 +1,6 @@
-.navbar {
+.navbar, .footer-container {
     display: flex;
 
 }
+
 
