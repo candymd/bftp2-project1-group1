@@ -1,6 +1,3 @@
-.navbar {
-    display: flex;
-}
 .footer-contacto {
     color: #a16ae8;
     font-weight: bold;
@@ -11,3 +8,46 @@ footer {
     
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: hsl(266, 73%, 66%);
+    align-items: center;
+}
+
+.logo {
+width: 200px;
+padding-left: -10px;
+
+}
+
+ul {
+display: flex;
+margin-right: 50px;
+gap: 50px;
+list-style: none;
+text-align: center;
+justify-content: space-around;
+width: auto;
+font-size: 28px;
+
+
+}
+
+li a {
+ text-decoration: none;
+ color: #b4fee7;
+
+}
+
+.botones {
+
+justify-content: space-around;
+align-items: flex-end;
+}
+
+body {
+margin: auto
+}
