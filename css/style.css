@@ -1,6 +1,13 @@
 .navbar {
     display: flex;
-
+}
+.footer-contacto {
+    color: #a16ae8;
+    font-weight: bold;
 }
 
+footer {
+    display: flex;
+    
+}
 
