@@ -1,8 +1,19 @@
 .navbar {
     display: flex;
+<<<<<<< HEAD
     background-color: #a16ae8;
 
+=======
+}
+.footer-contacto {
+    color: #a16ae8;
+    font-weight: bold;
+>>>>>>> 80c324f956f1050e69dfadf1b398b50914326b16
 }
 
+footer {
+    display: flex;
+    
+}
 
 
