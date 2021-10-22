@@ -1,17 +1,6 @@
-<<<<<<< HEAD
-.navbar {
-    display: flex;
-<<<<<<< HEAD
-    background-color: #a16ae8;
-
-=======
-}
-=======
->>>>>>> d83ff408941beda1b12d58ea7855d24a3850406e
 .footer-contacto {
     color: #a16ae8;
     font-weight: bold;
->>>>>>> 80c324f956f1050e69dfadf1b398b50914326b16
 }
 
 footer {
@@ -19,9 +8,6 @@ footer {
     
 }
 
-<<<<<<< HEAD
-
-=======
 nav {
     display: flex;
     flex-direction: row;
@@ -69,4 +55,3 @@ align-items: flex-end;
 body {
 margin: auto
 }
->>>>>>> d83ff408941beda1b12d58ea7855d24a3850406e
