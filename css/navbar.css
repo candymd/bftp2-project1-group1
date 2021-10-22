@@ -1,13 +1,3 @@
-.footer-contacto {
-    color: #a16ae8;
-    font-weight: bold;
-}
-
-footer {
-    display: flex;
-    
-}
-
 nav {
     display: flex;
     flex-direction: row;
@@ -15,28 +5,27 @@ nav {
     flex-wrap: wrap;
     background-color: hsl(266, 73%, 66%);
     align-items: center;
+    
+
+   
 }
 
-.logo img {
+.logo {
+width: 200px;
 padding-left: -10px;
-border: 3px solid red;
-height: 75px;
-
 
 }
-div
-
 
 ul {
 display: flex;
 margin-right: 50px;
 gap: 50px;
 list-style: none;
+
 text-align: center;
 justify-content: space-around;
 width: auto;
 font-size: 28px;
-border: 3px solid green;
 
 
 }
@@ -56,3 +45,6 @@ align-items: flex-end;
 body {
 margin: auto
 }
+
+
+
