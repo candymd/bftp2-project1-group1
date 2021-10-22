@@ -1,0 +1,31 @@
+/*Estilos main container*/
+
+.main-container{
+    width: 70%;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.description{
+    
+    text-align: center;
+    margin: 20px;
+
+}
+.info-top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.usuaria {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 200px;
+    border: solid 5px #b4fee7;
+}
