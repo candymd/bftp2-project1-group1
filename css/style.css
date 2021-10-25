@@ -79,6 +79,7 @@ li a {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .info-bottom{
@@ -86,6 +87,7 @@ li a {
     display: flex;
     margin-bottom: 100px;  
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .usuaria {
