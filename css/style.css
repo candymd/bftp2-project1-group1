@@ -35,14 +35,23 @@ li a {
     color: #B4FEE7;
     font-size: 23px;
 }
+
 .botones {
     justify-content: space-around;
     align-items: flex-end;
+    transition-duration: 0.4s;
 }
 
+.botones li:hover {
+    background: #8e50de;
+    padding: 1px;
+    border-radius: 15px;
+
+
+}
 
 /*Estilos main container*/
-.main-container{
+.main-container {
     width: 80%;
     margin: 0 auto;
     margin-top: 100px;
