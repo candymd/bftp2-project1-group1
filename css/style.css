@@ -1,7 +1,9 @@
 body {
-    margin: auto
+    margin: auto;
+    background-color: #b4fee7;
+    font-family: 'Montserrat Alternates', sans-serif;
     
-    }
+}
 
     /*ESTILOS DEL NAVBAR*/
 nav {
@@ -43,8 +45,12 @@ li a {
 .main-container{
     width: 80%;
     margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    background-color: white;
+   
 }
 
 .description{
@@ -54,25 +60,26 @@ li a {
 
 .info-equipo{
     display: flex;
-    width: 100%;
+    flex-wrap: wrap;
+    margin-left: 280px;
 }
 
 .info-top {
     width: 100%;
     display: flex;
-    align-items: center;
+    
 }
 
 .info-bottom{
     width: 100%;
     display: flex;
-    align-items: center;
+    margin-bottom: 100px;
+    
 }
 
 .usuaria {
-    margin: 60px;
+    margin: 40px;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     width: 200px;
     height: 200px;
