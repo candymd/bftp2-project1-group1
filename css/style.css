@@ -33,6 +33,7 @@ ul {
 li a {
     text-decoration: none;
     color: #B4FEE7;
+    font-size: 23px;
 }
 .botones {
     justify-content: space-around;
