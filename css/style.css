@@ -1,13 +1,10 @@
 .footer-contacto {
-    color: #a16ae8;
+    color: #A16AE8;
     font-weight: bold;
 }
-
 footer {
     display: flex;
-    
 }
-
 nav {
     display: flex;
     flex-direction: row;
@@ -16,17 +13,12 @@ nav {
     background-color: hsl(266, 73%, 66%);
     align-items: center;
 }
-
 .logo img {
 padding-left: -10px;
 border: 3px solid red;
 height: 75px;
-
-
 }
 div
-
-
 ul {
 display: flex;
 margin-right: 50px;
@@ -37,22 +29,15 @@ justify-content: space-around;
 width: auto;
 font-size: 28px;
 border: 3px solid green;
-
-
 }
-
 li a {
  text-decoration: none;
- color: #b4fee7;
-
+ color: #B4FEE7;
 }
-
 .botones {
-
 justify-content: space-around;
 align-items: flex-end;
 }
-
 body {
 margin: auto
 }
