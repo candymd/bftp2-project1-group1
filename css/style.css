@@ -55,26 +55,28 @@ li a {
 
 .description{
     text-align: center;
-    margin: 20px;
+    margin: 20px 0px;
+
 }
 
 .info-equipo{
-    display: flex;
+    display: flex;   
     flex-wrap: wrap;
-    margin-left: 280px;
+ 
+    
 }
 
 .info-top {
     width: 100%;
     display: flex;
-    
+    justify-content: space-around;
 }
 
 .info-bottom{
     width: 100%;
     display: flex;
-    margin-bottom: 100px;
-    
+    margin-bottom: 100px;  
+    justify-content: space-around;
 }
 
 .usuaria {
@@ -87,7 +89,9 @@ li a {
     border-radius: 100px;
     border: solid 5px #b4fee7;
 }
-
+.profesion {
+    font-size: 12px;
+}
 
 /**ESTILOS FOOTER/PIE DE PÁGINA*/
 .footer-contacto {
