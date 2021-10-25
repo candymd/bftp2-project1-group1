@@ -15,10 +15,10 @@ nav {
     align-items: center;
 }
 .logo img {
-    padding-left: -10px;
-    border: 3px solid red;
-    height: 75px;
-}
+    width: 150px;
+    height: 100%;
+
+    }
 
 ul {
     display: flex;
@@ -29,7 +29,6 @@ ul {
     justify-content: space-around;
     width: auto;
     font-size: 28px;
-    border: 3px solid green;
 }
 li a {
     text-decoration: none;
@@ -116,5 +115,12 @@ footer {
 
 .copyright {
     align-items: flex-end;
+    font-size: 13px;
+    margin-top: 90px;
+    text-align: center;
 }
 
+.footer-logo img {
+    width: 150px;
+    height: 75%;
+}
