@@ -93,7 +93,6 @@ li a {
 .footer-contacto {
     color: #A16AE8;
     font-weight: bold;
-    
     flex-direction: row;
     
     
@@ -106,5 +105,16 @@ li a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #b4fee7;
+    
 }
+
+footer {
+    display: flex;
+    justify-content: space-around; 
+    flex-direction: column;
+}
+
+.copyright {
+    align-items: flex-end;
+}
+
