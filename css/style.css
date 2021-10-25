@@ -1,10 +1,9 @@
-.footer-contacto {
-    color: #A16AE8;
-    font-weight: bold;
-}
-footer {
-    display: flex;
-}
+body {
+    margin: auto
+    
+    }
+
+    /*ESTILOS DEL NAVBAR*/
 nav {
     display: flex;
     flex-direction: row;
@@ -14,30 +13,80 @@ nav {
     align-items: center;
 }
 .logo img {
-padding-left: -10px;
-border: 3px solid red;
-height: 75px;
+    padding-left: -10px;
+    border: 3px solid red;
+    height: 75px;
 }
-div
+
 ul {
-display: flex;
-margin-right: 50px;
-gap: 50px;
-list-style: none;
-text-align: center;
-justify-content: space-around;
-width: auto;
-font-size: 28px;
-border: 3px solid green;
+    display: flex;
+    margin-right: 50px;
+    gap: 50px;
+    list-style: none;
+    text-align: center;
+    justify-content: space-around;
+    width: auto;
+    font-size: 28px;
+    border: 3px solid green;
 }
 li a {
- text-decoration: none;
- color: #B4FEE7;
+    text-decoration: none;
+    color: #B4FEE7;
 }
 .botones {
-justify-content: space-around;
-align-items: flex-end;
+    justify-content: space-around;
+    align-items: flex-end;
 }
-body {
-margin: auto
+
+
+/*Estilos main container*/
+.main-container{
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.description{
+    text-align: center;
+    margin: 20px;
+}
+
+.info-equipo{
+    display: flex;
+    width: 100%;
+}
+
+.info-top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.info-bottom{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.usuaria {
+    margin: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 100px;
+    border: solid 5px #b4fee7;
+}
+
+
+/**ESTILOS FOOTER/PIE DE PÁGINA*/
+.footer-contacto {
+    color: #A16AE8;
+    font-weight: bold;
+}
+footer {
+    display: flex;
 }
