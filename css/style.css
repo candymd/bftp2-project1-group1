@@ -99,6 +99,7 @@ li a {
     overflow: hidden;
     border-radius: 100px;
     border: solid 5px #b4fee7;
+    object-fit: cover;
 }
 .profesion {
     font-size: 12px;
@@ -139,4 +140,14 @@ footer {
 .footer-logo img {
     width: 150px;
     height: 75%;
+}
+@media (max-witdh:768px) {
+  .main-container{
+    display: block;
+  }
+  .footer-container {
+    flex-wrap:wrap; 
+    flex-direction: row;
+    
+  }  
 }
