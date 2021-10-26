@@ -104,7 +104,25 @@ li a {
 .profesion {
     font-size: 12px;
 }
-
+/* container que hacemos */
+.container img{
+    width: 80%;
+    height:300px;
+    display: block;
+    flex-direction: column;
+    object-fit: cover;
+    margin: auto;
+}
+.container p{
+    text-align: center;
+    font-size: 20px;
+}
+.container h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+    
+}
 /**ESTILOS FOOTER/PIE DE PÁGINA*/
 .footer-contacto {
     color: #A16AE8;
