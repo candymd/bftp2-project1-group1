@@ -59,7 +59,6 @@ li a {
     width: 80%;
     margin: 0 auto;
     margin-top: 100px;
-    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     background-color: white;
@@ -76,25 +75,18 @@ li a {
 .info-equipo{
     display: flex;   
     flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    
+    
+
  
     
 }
 
-.info-top {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.persona{
+    text-align: center;
 }
-
-.info-bottom{
-    width: 100%;
-    display: flex;
-    margin-bottom: 100px;  
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
 .usuaria {
     margin: 40px;
     display: flex;
@@ -115,6 +107,7 @@ li a {
     background-color: white;
     width: 80%;
     margin: auto;
+    margin-top: 100px;
     box-shadow: 2px 2px 10px #5a8577;
     flex-wrap: wrap;
 
@@ -129,12 +122,10 @@ li a {
 }
 .container p{
     text-align: center;
-    font-size: 20px;
     padding: 20px;
 }
-.container h1{
+ h1{
     text-align: center;
-    font-size: 50px;
     padding-top: 40px
     
 }
@@ -169,9 +160,7 @@ footer {
 }
 
 .copyright {
-    align-items: flex-end;
     font-size: 13px;
-    margin-top: 90px;
     text-align: center;
 }
 
