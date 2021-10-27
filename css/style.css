@@ -164,14 +164,12 @@ footer {
 
 /* MEDIA QUERY */
 
-@media (max-width: 768px) {
+@media (min-width: 765px) and (max-device-width : 1024px) {
   .main-container{
     display: block;
   }
 
   .footer-container {
-    display: flex;
-    flex-direction: column; 
     padding: 20px;
     text-align: center;
   }  
@@ -185,15 +183,13 @@ footer {
        margin-bottom: -40px;
    }
 
-   .usuaria {
-       border-radius: 15px;
-   }
   
 }
 
-@media (min-width: 340px) {
+@media (max-device-width : 480px)and (min-width: 300px) {
     .main-container{
         display: block;
+        text-align: justify;
       }
     
       .footer-container {
