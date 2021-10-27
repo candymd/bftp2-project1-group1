@@ -10,7 +10,6 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
     background-color: hsl(266, 73%, 66%);
     align-items: center;
 }
@@ -157,6 +156,7 @@ footer {
     display: flex;
     justify-content: space-around; 
     flex-direction: column;
+    margin-top: 20px;
 }
 
 .copyright {
@@ -168,13 +168,32 @@ footer {
     width: 150px;
     height: 75%;
 }
-@media (max-witdh:768px) {
+
+/* MEDIA QUERY */
+
+@media (max-width: 375px) {
   .main-container{
     display: block;
   }
+
   .footer-container {
-    flex-wrap:wrap; 
-    flex-direction: row;
-    
+    display: flex;
+    flex-direction: column; 
+    padding: 20px;
+    text-align: center;
   }  
+  
+   nav {
+    display: flex;
+    flex-direction: column;
+   }
+
+   nav img {
+       margin-bottom: -40px;
+   }
+
+   .usuaria {
+       border-radius: 15px;
+   }
+  
 }
