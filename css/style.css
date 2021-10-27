@@ -68,6 +68,7 @@ li a {
 .description{
     text-align: center;
     margin: 20px 80px;
+    text-align: justify;
 
 }
 
@@ -75,12 +76,7 @@ li a {
     display: flex;   
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-bottom: 40px;
-    
-    
-
- 
-    
+    padding-bottom: 40px;   
 }
 
 .persona{
@@ -125,8 +121,7 @@ li a {
 }
  h1{
     text-align: center;
-    padding-top: 40px
-    
+    padding-top: 40px    
 }
 
 .projects1 p {
@@ -137,9 +132,7 @@ li a {
 .footer-contacto {
     color: #A16AE8;
     font-weight: bold;
-    flex-direction: row;
-    
-    
+    flex-direction: row;  
 }
 
 .footer-contacto li {
@@ -171,7 +164,7 @@ footer {
 
 /* MEDIA QUERY */
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
   .main-container{
     display: block;
   }
@@ -198,7 +191,7 @@ footer {
   
 }
 
-@media (min-width: 320px) {
+@media (min-width: 340px) {
     .main-container{
         display: block;
       }
