@@ -171,7 +171,7 @@ footer {
 
 /* MEDIA QUERY */
 
-@media (max-width: 375px) {
+@media (max-width: 760px) {
   .main-container{
     display: block;
   }
@@ -182,7 +182,7 @@ footer {
     padding: 20px;
     text-align: center;
   }  
-  
+
    nav {
     display: flex;
     flex-direction: column;
@@ -196,4 +196,26 @@ footer {
        border-radius: 15px;
    }
   
+}
+
+@media (min-width: 320px) {
+    .main-container{
+        display: block;
+      }
+    
+      .footer-container {
+        display: flex;
+        flex-direction: column; 
+        padding: 20px;
+        text-align: center;
+      }  
+    
+       nav {
+        display: flex;
+        flex-direction: column;
+       }
+    
+       nav img {
+           margin-bottom: -40px;
+       }  
 }
