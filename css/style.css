@@ -108,12 +108,14 @@ a {
 }
 .container img {
   width: 90%;
-  height: 300px;
+  height: 400px;
   display: block;
   flex-direction: column;
-  object-fit: cover;
+  /*object-fit: cover;*/
   margin: auto;
+ 
 }
+
 
 h1 {
   text-align: center;
@@ -125,15 +127,13 @@ p.intro {
   margin-left: 60px;
   word-wrap: break-word;
 }
-
-p.title {
-  text-align: center;
+.projects {
+    padding-bottom: 20px;
+    
 }
-p.title3 {
-  padding-bottom: 20px;
-  text-align: center;
+.projects img{
+    border: solid 1px #8c8c8c;
 }
-
 /**ESTILOS FOOTER/PIE DE PÁGINA*/
 .footer-contacto {
   color: #a16ae8;
@@ -174,11 +174,6 @@ footer {
     display: block;
   }
 
-  .footer-container {
-    padding: 20px;
-    text-align: center;
-  }
-
   nav {
     display: flex;
     flex-direction: column;
@@ -194,6 +189,10 @@ footer {
     width: 80%;
     height: auto;
   }
+  .footer-container {
+    padding: 20px;
+    text-align: center;
+  }
   
 }
 @media (max-device-width: 762px) and (min-width: 479px) {
@@ -208,7 +207,7 @@ footer {
 }
 
 
-@media (max-device-width: 480px) and (min-width: 300px) {
+@media (max-device-width: 480px) and (min-width: 180px) {
   .main-container {
     display: block;
     text-align: justify;
@@ -239,14 +238,6 @@ footer {
     width: 80%;
     height: auto;
   }
-
-  .footer-container {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    text-align: center;
-  }
-
   nav {
     display: flex;
     flex-direction: column;
@@ -262,6 +253,12 @@ footer {
     height: 350px;
 
 }
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
 
 }
 
