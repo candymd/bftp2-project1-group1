@@ -121,7 +121,8 @@ h1 {
 }
 
 p.intro {
-  margin: 25px;
+  margin: 30px;
+  margin-left: 60px;
   word-wrap: break-word;
 }
 
@@ -213,6 +214,15 @@ footer {
     text-align: justify;
     width: 100%;
   }
+  .container{
+    display: block;
+    text-align: justify;
+    width: 100%; 
+  }
+  p.intro {
+  margin: 30px;
+  word-wrap: break-word;
+}
   .persona {
     width: 100%;
     height: 100%;
